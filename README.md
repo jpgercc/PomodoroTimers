@@ -16,7 +16,7 @@ Após completar quatro ciclos de trabalho (100 minutos no total), faz um interva
 <i>Ou seja:<br>4 * ( 25m + 5m ) + 30m </i>
 <h2>PROJECT BRANCHING</h2>
 Deve ter reparado que na branch <a href="https://github.com/jpgercc/PomodoroTimers/tree/main">"main"</a> tem dois arquivos .py. As diferenças são irrelevantes, a versão usada neste executavel é a de nome "blue_relax_30m", que como o nome já diz muda apenas alguns detalhes e que durante o tempo de intervalo a cor do cronometro fica azul.
-Na branch <a href="https://github.com/jpgercc/PomodoroTimers/tree/count_time">"count_time"</a> a diferença é que o o aplicativo conta o tempo que você trabalhou a cada 25 minutos.
+A branch <a href="https://github.com/jpgercc/PomodoroTimers/tree/count_time">"count_time"</a> é baseada no arquivo "blue_relax_30m", a diferença é que o o aplicativo conta o tempo que você trabalhou a cada 25 minutos.
 <h2>HOW DOES IT LOOK</h2>
 <br>
 <p align="center">
