@@ -1,4 +1,4 @@
-# Projeto <a href="https://edisciplinas.usp.br/pluginfile.php/4684649/mod_folder/content/0/PomodoroTechnique.pdf" Pomodoro</a>:
+# Projeto Pomodoro:
 <h3>FUN FACT</h3>
   Projeto criado em um período de procrastinação e durante uma madrugada acordado. 😥 
 <h2>HOW TO RUN IT</h2>
