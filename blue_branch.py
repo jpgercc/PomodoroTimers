@@ -6,14 +6,21 @@ class PomodoroTimer:
     def __init__(self, root_window):
         self.root = root_window
         self.root.title("Pomodoro Timer")
-        self.root.geometry("300x200")
+        self.root.geometry("300x300")  # Aumentei a altura para acomodar o novo rótulo
 
         self.time_left = 1500  # 25 minutos em segundos
         self.is_pomodoro = True
         self.pomodoro_count = 0
+        self.total_work_time = 0  # Variável para rastrear o tempo total de trabalho
+
+        self.work_time_label = tk.Label(root, text="Pomodoro Timer", font=("Helvetica", 18))
+        self.work_time_label.pack(pady=10)
 
         self.label = tk.Label(root, text="25:00", font=("Helvetica", 48))
         self.label.pack(pady=20)
+
+        self.total_time_label = tk.Label(root, text="Tempo Total de Trabalho: 00:00", font=("Helvetica", 12))
+        self.total_time_label.pack(pady=10)
 
         self.start_button = tk.Button(root, text="Iniciar", command=self.start_timer)
         self.pause_button = tk.Button(root, text="Pausar", command=self.pause_timer)
@@ -45,6 +52,7 @@ class PomodoroTimer:
         self.time_left = 1500
         self.pomodoro_count = 0
         self.is_pomodoro = True
+        self.total_work_time = 0  # Redefina o tempo total
 
         self.update_display()
         self.root.after_cancel(self.timer_id)
@@ -70,8 +78,9 @@ class PomodoroTimer:
             else:
                 self.time_left = 1500  # 25 minutos em segundos
                 self.is_pomodoro = True
+                self.total_work_time += 1500  # Adicione o tempo de trabalho ao tempo total
+                self.update_total_time()  # Atualize o tempo total
             self.update_display()
-            self.timer()
 
     def update_display(self):
         if self.is_pomodoro:
@@ -81,6 +90,12 @@ class PomodoroTimer:
                 self.label.config(text="30:00", fg="blue")
             else:
                 self.label.config(text="05:00", fg="red")
+
+    def update_total_time(self):
+        total_minutes = self.total_work_time // 60
+        total_seconds = self.total_work_time % 60
+        total_time_str = f"Tempo Total de Trabalho: {total_minutes:02}:{total_seconds:02}"
+        self.total_time_label.config(text=total_time_str)
 
     def play_alarm(self):
         winsound.Beep(1000, 1000)  # Toca um som por 1 segundo
