@@ -1,11 +1,11 @@
-# Projeto Pomodoro:
+# Projeto <a href="https://edisciplinas.usp.br/pluginfile.php/4684649/mod_folder/content/0/PomodoroTechnique.pdf" Pomodoro</a>:
 <h3>FUN FACT</h3>
   Projeto criado em um período de procrastinação e durante uma madrugada acordado. 😥 
 <h2>HOW TO RUN IT</h2>
 É um app simples feito em Python 3 com as <b>blibliotecas: tkinter & winsound</b>.
 Você pode rodar simplismente rodando o executavel localizado na pasta <a href="https://github.com/jpgercc/PomodoroTimers/tree/main/dist"><i>"dist"</i>.</a>
 <h2>HOW DOES IT WORK</h2>
-O app tem o objetivo de ser um timer com base na técnica pomodoro que consiste em dividir o trabalho em curtos intervalos de tempo.
+O app tem o objetivo de ser um timer com base na <a href="https://dev.to/marciofrayze/conhecendo-a-tecnica-pomodoro-35p0">técnica pomodoro</a> que consiste em dividir o trabalho em curtos intervalos de tempo.
 A estrutura do tempo é a seguinte:
 Após completar quatro ciclos de trabalho (100 minutos no total), faz um intervalo de 30 minutos
 <ul>
