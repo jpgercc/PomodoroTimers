@@ -4,7 +4,7 @@
 <h2>HOW TO RUN IT</h2>
 É um app simples feito em Python 3 com as <b>blibliotecas: tkinter & winsound</b>.
 Você pode rodar simplismente rodando o executavel localizado na pasta <i>"dist"</i>.
-<h2>HOW DOES IT WORK?</h2>
+<h2>HOW DOES IT WORK</h2>
 O app tem o objetivo de ser um timer com base na técnica pomodoro que consiste em dividir o trabalho em curtos intervalos de tempo.
 A estrutura do tempo é a seguinte:
 Após completar quatro ciclos de trabalho (100 minutos no total), faz um intervalo de 30 minutos
@@ -14,6 +14,9 @@ Após completar quatro ciclos de trabalho (100 minutos no total), faz um interva
   <li>3. Depois de repetir o passo 1 e 2 quatro vezes(100 minutos), faz um intervalo de 30 minutos</li>
 </ul>
 <i>Ou seja:<br>4 * ( 25m + 5m ) + 30m </i>
+<h2>PROJECT BRANCHING</h2>
+Deve ter reparado que tem dois arquivos .py. Decidi não criar uma nova branch para cada arquivo pois as diferenças são irrelevantes. A versão usada no executavel é a de nome "blue_relax_30m", que como o nome já diz muda apenas alguns detalhes e que durante o tempo de intervalo a cor do cronometro fica azul.
+<h2>HOW DOES IT LOOK</h2>
 <br>
 <p align="center">
   <img src="https://github.com/jpgercc/PomodoroTimers/assets/115590969/9db19cb1-297f-44c1-8c09-108afb79e1bc" alt="Descrição da imagem">
