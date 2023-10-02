@@ -3,7 +3,7 @@
   Projeto criado em um período de procrastinação e durante uma madrugada acordado. 😥 
 <h2>HOW TO RUN IT</h2>
 É um app simples feito em Python 3 com as <b>blibliotecas: tkinter & winsound</b>.
-Você pode rodar simplismente rodando o executavel localizado na pasta <i>"dist"</i>.
+Você pode rodar simplismente rodando o executavel localizado na pasta <a href="https://github.com/jpgercc/PomodoroTimers/tree/main/dist"><i>"dist"</i>.</a>
 <h2>HOW DOES IT WORK</h2>
 O app tem o objetivo de ser um timer com base na técnica pomodoro que consiste em dividir o trabalho em curtos intervalos de tempo.
 A estrutura do tempo é a seguinte:
