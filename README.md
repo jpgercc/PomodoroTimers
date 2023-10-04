@@ -15,8 +15,8 @@ Após completar quatro ciclos de trabalho (100 minutos no total), faz um interva
 </ul>
 <i>Ou seja:<br>4 * ( 25m + 5m ) + 30m </i>
 <h2>PROJECT BRANCHING</h2>
-Esta branch é reservada a ultima versão do app. O executável se encontra na pasta <a href="https://github.com/jpgercc/PomodoroTimers/tree/main/dist">"dist"</a>.
--Agora com sons da serie Star Trek e um contador de tempo util!
+Esta branch é reservada a ultima versão do app.
+<b>Agora com sons da serie Star Trek e um contador de tempo util!</b>
 <h2>HOW DOES IT LOOK</h2>
 <br>
 <p align="center">
