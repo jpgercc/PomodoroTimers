@@ -21,7 +21,7 @@ Esta branch é reservada a ultima versão do app.
 <h2>HOW DOES IT LOOK</h2>
 <br>
 <p align="center">
-  <img src="![image](https://github.com/jpgercc/PomodoroTimers/assets/115590969/61551139-3fc1-4f9e-8e95-723acc6867aa)" alt="Foto do app">
+  <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/115590969/272441403-61551139-3fc1-4f9e-8e95-723acc6867aa.png" alt="Foto do app">
 </p>
 
 
