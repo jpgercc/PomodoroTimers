@@ -16,6 +16,7 @@ Após completar quatro ciclos de trabalho (100 minutos no total), faz um interva
 <i>Ou seja:<br>4 * ( 25m + 5m ) + 30m </i>
 <h2>PROJECT BRANCHING</h2>
 Esta branch é reservada a ultima versão do app.
+<br>
 <b>Agora com sons da serie Star Trek e um contador de tempo util!</b>
 <h2>HOW DOES IT LOOK</h2>
 <br>
