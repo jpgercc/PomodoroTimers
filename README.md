@@ -1,7 +1,7 @@
 # Projeto Pomodoro:
 <h3>FUN FACT</h3>
   Projeto criado em um período de procrastinação e durante uma madrugada acordado. 😥 
-<h2>HOW TO RUN IT IN CONSOLE</h2>
+<h2>HOW TO RUN IT</h2>
 É um app simples feito em Python 3 com as <b>blibliotecas: tkinter & pygame</b>.
 Você pode rodar simplismente rodando o executavel localizado na pasta <a href="https://github.com/jpgercc/PomodoroTimers/tree/main/dist"><i>"dist"</i>.</a>
 <h2>HOW DOES IT WORK</h2>
